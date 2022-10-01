@@ -9,4 +9,4 @@ int number2 = Convert.ToInt32(Console.ReadLine());
 int max = number1;
 if (number2 > max) max = number2;
 
-System.Console.WriteLine($"Максимальным из чисел {number1} и {number2} является число {max}");
+Console.WriteLine($"Максимальным из чисел {number1} и {number2} является число {max}");
